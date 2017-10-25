@@ -11,31 +11,31 @@
       gtag('config', 'UA-107004784-1');
     </script>
  -->    
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/icon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/icon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/icon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/icon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/icon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/icon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/icon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/icon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/icon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/icon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/icon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/icon/favicon-16x16.png">
-    <link rel="manifest" href="icons/icon/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-180x180.png">
+    <link rel="icon" type="<?php bloginfo('stylesheet_directory')?>/image/png" sizes="192x192"  href="<?php bloginfo('stylesheet_directory')?>/icons/icon/android-icon-192x192.png">
+    <link rel="icon" type="<?php bloginfo('stylesheet_directory')?>/image/png" sizes="32x32" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-32x32.png">
+    <link rel="icon" type="<?php bloginfo('stylesheet_directory')?>/image/png" sizes="96x96" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-96x96.png">
+    <link rel="icon" type="<?php bloginfo('stylesheet_directory')?>/image/png" sizes="16x16" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-16x16.png">
+    <link rel="manifest" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="icons/icon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="<?php bloginfo('stylesheet_directory')?>/icons/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Umbrella</title>
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     
 </head>
@@ -47,7 +47,7 @@
           <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium" style="background:transparent;">
             <div class="columns small-8 large-3 ">
                 <ul class="menu">
-                   <img src="assets/umbrellaLogo.svg">
+                   <img src="<?php bloginfo('stylesheet_directory')?>/assets/umbrellaLogo.svg">
                 </ul>
             </div>
             <div>
@@ -82,9 +82,9 @@
      <div data-sticky-container class="show-for-medium" style="min-height:  120px;">
       <div class="top-bar headermenu" data-sticky data-options="marginTop: 0" id="example-menu">
         <div class="row">
-          <div class="columns small-5  large-3 show-for-medium"" style="width: 250px;">
+          <div class="columns small-5  large-3 show-for-medium" style="width: 250px;">
             <ul class="menu">
-               <img src="assets/umbrellaLogo.svg" style="max-width: 200px">
+               <img src="<?php bloginfo('stylesheet_directory')?>/assets/umbrellaLogo.svg" style="max-width: 200px">
             </ul>
           </div>
           <div class="columns small-12 medium-9 show-for-medium" >
@@ -109,26 +109,26 @@
     <ul class="orbit-container">
       <li class="is-active orbit-slide">
         <figure class="orbit-figure">
-          <img class="orbit-image show-for-small-only" src="assets/Slider1Mobile@2x.jpg" alt="Space">
-          <img class="orbit-image show-for-medium-only" src="assets/Slider1Tablet.jpg" alt="Space">
-          <img class="orbit-image show-for-large" src="assets/Slider1DesktopHD@2x.jpg" alt="Space">
+          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Mobile@2x.jpg" alt="Space">
+          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Tablet.jpg" alt="Space">
+          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1DesktopHD@2x.jpg" alt="Space">
           
          
         </figure>
       </li>
       <li class="orbit-slide">
         <figure class="orbit-figure">
-          <img class="orbit-image show-for-small-only" src="assets/Slider2Mobile@2x.jpg" alt="Space">
-          <img class="orbit-image show-for-medium-only" src="assets/Slider2Tablet.jpg" alt="Space">
-          <img class="orbit-image show-for-large" src="assets/Slider2DesktopHD.jpg" alt="Space">
+          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Mobile@2x.jpg" alt="Space">
+          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Tablet.jpg" alt="Space">
+          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2DesktopHD.jpg" alt="Space">
         
         </figure>
       </li>
       <li class="orbit-slide">
         <figure class="orbit-figure">
-          <img class="orbit-image show-for-small-only" src="assets/Slider3Mobile@2x.jpg" alt="Space">
-          <img class="orbit-image show-for-medium-only" src="assets/Slider3Tablet.jpg" alt="Space">
-          <img class="orbit-image show-for-large" src="assets/Slider3DesktopHD.jpg" alt="Space">
+          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Mobile@2x.jpg" alt="Space">
+          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Tablet.jpg" alt="Space">
+          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3DesktopHD.jpg" alt="Space">
          
         </figure>
       </li>
@@ -155,7 +155,7 @@
               <div class = "row container" id="card2Div" >       
                   <div class="small-12 medium-6 columns card2">
                      <picture>
-                          <img width="auto" height="auto" data-interchange="[assets/producto.png, small], [assets/producto@2x.png, retina]">      
+                          <img width="auto" height="auto" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/producto.png, small], [<?php bloginfo('stylesheet_directory')?>/assets/producto@2x.png, retina]">      
                       </picture>
                   </div>
                   <div class="small-12 medium-6 columns card2-section align-self-middle ">
@@ -172,7 +172,7 @@
             <div class="card columns">
               <article>  
                 <picture>
-                  <img id="imageCard1" width="auto" height="auto" src="assets/protege.svg" />  
+                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/protege.svg" />  
                 </picture>
                   
                 <div class="card-section">
@@ -187,7 +187,7 @@
             <div class="card columns" style="max-width: 62.5rem">
               <article>  
                 <picture>
-                  <img id="imageCard1" width="auto" height="auto" src="assets/previene.svg" />
+                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/previene.svg" />
                 </picture>
                   
                 <div class="card-section">
@@ -202,7 +202,7 @@
             <div class="card columns">
               <article>  
                 <picture>
-                  <img id="imageCard1" width="auto" height="auto" src="assets/adn.svg"  />    
+                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/adn.svg"  />    
                 </picture>
                   
                 <div class="card-section">
@@ -225,7 +225,7 @@
             <div class="columns small-12">
               <div class="responsive-embed">
                    <div class="columns small-12 text-center" >
-                      <iframe id ="videoFrame" width="960" height="540" src="assets/video2.mp4" frameborder="0" allowfullscreen></iframe>
+                      <iframe id ="videoFrame" width="960" height="540" src="<?php bloginfo('stylesheet_directory')?>/assets/video2.mp4" frameborder="0" allowfullscreen></iframe>
                   </div> 
               </div> 
             </div>
@@ -238,13 +238,13 @@
             <h5 class="textSpecial" style=" line-height: 1.2;">ENCUÉNTRANOS <br> EN LAS PRINCIPALES FARMACIAS DEL PAÍS</h5>
               <div class="row medium-up-3 " >
                 <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-                   <img  width="auto" height="auto" src="assets/cruzVerde.jpg"  />  
+                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/cruzVerde.jpg"  />  
                 </div>
                 <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand" >
-                   <img  width="auto" height="auto" src="assets/ahumada.jpg"  />  
+                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/ahumada.jpg"  />  
                 </div>
                 <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-                   <img  width="auto" height="auto" src="assets/salco.png"  />  
+                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/salco.png"  />  
                 </div>
               </div> 
             </div>   
@@ -256,17 +256,17 @@
         <footer class="footer row align-justify">
             <div class="small-3 column hide-for-small-only">
                 <div class="row">
-                    <img src="assets/umbrella2Logo.svg" class="attachment-full size-full wp-post-image" alt="" style="height: 60px;">          
+                    <img src="<?php bloginfo('stylesheet_directory')?>/assets/umbrella2Logo.svg" class="attachment-full size-full wp-post-image" alt="" style="height: 60px;">          
                 </div>
                 <div class="row footerSocial">
                     <div class="small-12 medium-4 columns align-self-middle"">
                         <a href="https://www.facebook.com/Umbrella.fotoproteccion/"> 
-                            <img src="assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com" style="padding-bottom: 20px;"></a>
+                            <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com" style="padding-bottom: 20px;"></a>
                        
                     </div>
                     <div class="small-12 medium-8 columns align-self-middle text-align-center">
                          <a href="https://www.instagram.com/umbrella_fotoproteccion"> 
-                            <img src="assets/instagramLogo.svg" class="attachment-full size-full wp-post-image" alt="www.instagram.com" style="padding-bottom: 20px;"></a>
+                            <img src="<?php bloginfo('stylesheet_directory')?>/assets/instagramLogo.svg" class="attachment-full size-full wp-post-image" alt="www.instagram.com" style="padding-bottom: 20px;"></a>
                     </div>
                 </div>
             </div>
@@ -302,7 +302,7 @@
                         <p> Teléfono:(2) 2340 5800 </p>
                     </div>
                     <div class="columns small-3">
-                      <img src="assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="">
+                      <img src="<?php bloginfo('stylesheet_directory')?>/assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="">
                       </div>
                   </div>
                 </div>
@@ -316,7 +316,7 @@
     <div class="footer-container show-for-small-only">
         <footer class="footer row align-justify">
             <div class="columns small-12 show-for-small-only">
-                <img src="assets/umbrella2Logo.svg" class="attachment-full size-full wp-post-image" alt="" style="max-width: 200px; min-width: 100px;">
+                <img src="<?php bloginfo('stylesheet_directory')?>/assets/umbrella2Logo.svg" class="attachment-full size-full wp-post-image" alt="" style="max-width: 200px; min-width: 100px;">
             </div>
             <div class="columns small-12 show-for-small-only" id="menuFooterMobile">
                 <ul id="menu-footer-1" class="menu footermenu vertical menu" data-magellan>
@@ -350,29 +350,29 @@
                         <div class="row">
                             <div class="small-6  columns text-center" id="imgFacebookMobile">
                               <a href="https://www.facebook.com/Umbrella.fotoproteccion/"> 
-                                <img src="assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com">   
+                                <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com">   
                                </a>
                             </div>
                             <div class="small-6 columns text-center" id="imgFacebookMobile">
                               <a href="https://www.instagram.com/umbrella_fotoproteccion"> 
-                                <img src="assets/instagramLogo.svg" class="attachment-full size-full wp-post-image" alt="www.instagram.com" style=" height: 60px; width: 60px;">
+                                <img src="<?php bloginfo('stylesheet_directory')?>/assets/instagramLogo.svg" class="attachment-full size-full wp-post-image" alt="www.instagram.com" style=" height: 60px; width: 60px;">
                               </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="columns small-12 footermenu text-center" id="imgLogoFooter2Mobile">
-                      <img src="assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="" style="margin-top: 20px;"> 
+                      <img src="<?php bloginfo('stylesheet_directory')?>/assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="" style="margin-top: 20px;"> 
                 </div>     
             </div>
         </footer>
     </div>
  
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/vendor/foundation.interchange.js"></script>
-    <script src="js/app.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/jquery.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/what-input.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/foundation.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/foundation.interchange.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/app.js"></script>
   
 
 </body>
