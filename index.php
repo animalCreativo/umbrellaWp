@@ -32,7 +32,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <title>Umbrella</title>
+    <meta name="description" content="Umbrella Intelligent es un sistema integral de fotoprotección inteligente que protege y restaura la piel desde su ADN.">
+    <meta name="keywords" content="fotoprotector solar, protector solar, prevención de cancer de piel, restauración del ADN, protección rayos UV, factor solar 50, radiación UV, fotoliasas encapsuladas">
+    <title>Umbrella Intelligent - Protección y reparación de la piel desde su ADN</title>
+
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
@@ -109,26 +112,25 @@
     <ul class="orbit-container">
       <li class="is-active orbit-slide">
         <figure class="orbit-figure">
-          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Mobile@2x.jpg" alt="Space">
-          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Tablet.jpg" alt="Space">
-          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1DesktopHD@2x.jpg" alt="Space">
+          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Mobile@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
+          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Tablet.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
+          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1DesktopHD@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
           
-         
         </figure>
       </li>
       <li class="orbit-slide">
         <figure class="orbit-figure">
-          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Mobile@2x.jpg" alt="Space">
-          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Tablet.jpg" alt="Space">
-          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2DesktopHD.jpg" alt="Space">
+          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Mobile@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
+          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Tablet.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
+          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2DesktopHD.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
         
         </figure>
       </li>
       <li class="orbit-slide">
         <figure class="orbit-figure">
-          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Mobile@2x.jpg" alt="Space">
-          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Tablet.jpg" alt="Space">
-          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3DesktopHD.jpg" alt="Space">
+          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Mobile@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
+          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Tablet.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
+          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3DesktopHD.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
          
         </figure>
       </li>
