@@ -224,9 +224,9 @@
             <div class="columns small-12" >
               <h5 class="textSpecial">¿CÓMO FUNCIONA UMBRELLA INTELLIGENT?</h5>
             </div>  
-            <div class="columns small-12">
+            <div id ="columnaVideo" class="columns small-12">
               <div class="responsive-embed">
-                   <div class="columns small-12 text-center" >
+                   <div id ="columnaVideo" class="columns small-12 text-center" >
                       <iframe id ="videoFrame" width="960" height="540" src="<?php bloginfo('stylesheet_directory')?>/assets/video2.mp4" frameborder="0" allowfullscreen></iframe>
                   </div> 
               </div> 
