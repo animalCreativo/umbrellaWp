@@ -74,7 +74,7 @@
                   <li><a class= "clickMenu" href="#fourth" >Puntos de Venta</a></li>
               </ul>
               <ul class=" dropdown menu" data-magellan data-dropdown-menu id="menuListHeader">           
-                  <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                  <li><a href="mailto:jsamur@pharmainvesti.cl">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -97,7 +97,7 @@
                 <li><a href="#second">Modo de acción</a></li>
                 <li><a href="#third" >¿Cómo funciona?</a></li>
                 <li><a href="#fourth" >Puntos de Venta</a></li>
-                <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                <li><a href="mailto:jsamur@pharmainvesti.cl">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -290,7 +290,7 @@
                                 <a href="#fourth">Puntos de Venta</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                                <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                                <a href="mailto:jsamur@pharmainvesti.cl">Contacto</a>
                             </li>
 
                             
@@ -336,7 +336,7 @@
                         <a href="#fourth">Puntos de Venta</a>
                     </li>
                     <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                        <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                        <a href="mailto:jsamur@pharmainvesti.cl">Contacto</a>
                     </li>
                 </ul> 
             </div>
