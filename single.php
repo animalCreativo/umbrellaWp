@@ -104,200 +104,30 @@
       </div>
     </div>
 
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit style=" z-index: 0;">
-  <div class="orbit-wrapper">
-    <div class="orbit-controls">
-      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-    </div>
-    <ul class="orbit-container">
-      <li class="is-active orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Mobile@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Tablet.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1DesktopHD@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-          
-        </figure>
-      </li>
-      <li class="orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Mobile@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Tablet.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2DesktopHD.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-        
-        </figure>
-      </li>
-      <li class="orbit-slide">
-        <figure class="orbit-figure">
-          <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Mobile@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-          <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Tablet.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-          <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3DesktopHD.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
+     <section>
+       <?php while ( have_posts() ) : the_post(); ?>
+        <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
+          <div class="row">
+          <div class="small-12 columns">
+            <div class="card columns">
+              <picture>
+                <?php the_post_thumbnail('postbox-thumb', array( 'width' =>100 , 'height' => auto ) ) ?>
+              </picture> 
+
+              <div class="cardBlog card-section">
+                  <h5><?php the_title() ?></h5>
+                  <p><?php the_content(); ?></p>
+              </div>
+            </div>
+          </div>   
+        </div>
          
-        </figure>
-      </li>
-    
-    </ul>
-  </div>
- <!-- 
-  <nav class="orbit-bullets">
-    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-    
-  </nav> -->
-</div>
-
-<!-- 
-    <div>
-       <img class="imgOrbit" style="width: 100%; height:auto;" data-interchange="[assets/slider1Mobile.jpg, small], [assets/slider1Tablet.jpg, medium], [assets/slider1Desktop.jpg, large], [assets/slider1DesktopHd.jpg, xlarge]">  
-    </div> -->
+        </article>
+      <?php endwhile;?>
+     </section>
 
 
-    <div class="sections">
-      <section id="first" data-magellan-target="first">
-          <article id="article1">     
-              <div class = "row container" id="card2Div" >       
-                  <div class="small-12 medium-6 columns card2">
-                     <picture>
-                          <img width="auto" height="auto" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/producto.png, small], [<?php bloginfo('stylesheet_directory')?>/assets/producto@2x.png, retina]">      
-                      </picture>
-                  </div>
-                  <div class="small-12 medium-6 columns card2-section align-self-middle ">
-                    <h5>UMBRELLA INTELLIGENT</h5>
-                    <h3>Protección + Restauración</h3>
-                    <p>Umbrella Intelligent es un sistema integral de fotoprotección inteligente que además de proteger tu piel, la restaura de daños anteriores causados por los rayos UV.</p>
-                  </div>
-              </div>
-          </article> 
-      </section>
-
-
-
-      <section>
-
-        <div class="row">
-          <div class="small-12 columns card2-section align-self-middle ">
-                    <h5>Noticias</h5>
-                    <h3>Ultimas publicaciones</h3>
-              </div>
-        </div>
-        
-        <div class="row medium-up-2 ">
-             
-          
-              <?php rewind_posts();?>    <!-- reiniciar variables del loop php -->
-              <?php query_posts('post_per_pages=6') ?>
-              <?php query_posts('order=Desc&cat=2') ?> <!-- categoria card1 -->
-              <?php if (have_posts()) : while ( have_posts() ) : the_post(); ?>
-                <div class="medium-6 columns">
-                  <div class="card columns">
-                    <picture>
-                      <?php the_post_thumbnail('full') ?>
-                    </picture>
-                      
-                    <div class="cardBlog card-section">
-                        <h5><?php the_title() ?></h5>
-                        <p><?php the_excerpt(); ?></p>
-                        <!-- <?php the_category() ?> -->
-                        <a href="<?php the_permalink(); ?>" class="hollow button">Ver más</a>
-                    </div>
-                  </div>
-                </div>
-              <?php endwhile; ?>
-
-              <?php else : ?>
-                  <?php get_template_part( 'template-parts/content', 'none' ); ?>
-              <?php endif; // End have_posts() check. ?>
-              
-        </div>
-      </section>
-
-      <section id="second" data-magellan-target="second">
-        <div class="row medium-up-3 ">
-          <div class="small-12 medium-4 columns">
-            <div class="card columns">
-              <article>  
-                <picture>
-                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/protege.svg" />  
-                </picture>
-                  
-                <div class="card-section">
-                    <h5>PROTEGE</h5>
-                    <p>Gracias a su poderosa fórmula Umbrella Intelligent ofrece una excelente defensa frente a la radiación UV-A, UV-B, luz visible e infraroja.</p>
-                </div>
-              </article>  
-            </div>
-          </div>
-
-          <div class="small-12 medium-4 columns">
-            <div class="card columns" style="max-width: 62.5rem">
-              <article>  
-                <picture>
-                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/previene.svg" />
-                </picture>
-                  
-                <div class="card-section">
-                    <h5>PREVIENE</h5>
-                    <p>Su innovador sistema de protección biológica AOX Complex previene el daño oxidativo de la piel y los efectos nocivos de la exposición a la radiación ultravioleta.</p>
-                </div>
-              </article>  
-            </div>
-          </div>
-
-          <div class="small-12 medium-4 columns">
-            <div class="card columns">
-              <article>  
-                <picture>
-                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/adn.svg"  />    
-                </picture>
-                  
-                <div class="card-section">
-                    <h5>REPARA EL ADN</h5>
-                    <p>La exposición a la radiación ultravioleta genera fuertes daños al ADN. Umbrella Intelligent incluye Fotoliasa encapsulada, que ayuda a reestructurar y reparar la piel, preservando su material genético. </p>
-                    
-                </div>
-              </article>  
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-      </section>
-      <section id="third" data-magellan-target="third">
-          <div class="row text-center" >
-            <div class="columns small-12" >
-              <h5 class="textSpecial">¿CÓMO FUNCIONA UMBRELLA INTELLIGENT?</h5>
-            </div>  
-            <div id ="columnaVideo" class="columns small-12">
-              <div class="responsive-embed">
-                   <div id ="columnaVideo" class="columns small-12 text-center" >
-                      <iframe id ="videoFrame" width="960" height="540" src="<?php bloginfo('stylesheet_directory')?>/assets/video2.mp4" frameborder="0" allowfullscreen></iframe>
-                  </div> 
-              </div> 
-            </div>
-          </div>
-      </section>
-      <section id="fourth" data-magellan-target="fourth">
-         <div class="row text-center" style="min-height: 420px;"> 
-            <div class="columns small-12 align-self-middle " >
-            <br>
-            <h5 class="textSpecial" style=" line-height: 1.2;">ENCUÉNTRANOS <br> EN LAS PRINCIPALES FARMACIAS DEL PAÍS</h5>
-              <div class="row medium-up-3 " >
-                <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/cruzVerde.jpg"  />  
-                </div>
-                <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand" >
-                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/ahumada.jpg"  />  
-                </div>
-                <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/salco.png"  />  
-                </div>
-              </div> 
-            </div>   
-          </div>
-      </section>
-    </div>
-   
+      
     <div class="footer-container show-for-medium">
         <footer class="footer row align-justify">
             <div class="small-3 column hide-for-small-only">

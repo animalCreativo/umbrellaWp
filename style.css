@@ -170,6 +170,9 @@ button.hollow.button {
 .card2-section {
   background: transparent; }
 
+.cardBlog {
+  background: #F7F7F7; }
+
 .header-container {
   background: white; }
 
@@ -240,6 +243,10 @@ ul.menu.headermenu {
 
 #body404 {
   background: #15210a; }
+
+img.attachment-postbox-thumb.size-postbox-thumb.wp-post-image {
+  width: 100%;
+  height: auto; }
 
 /* Small only */
 @media screen and (max-width: 350px) {

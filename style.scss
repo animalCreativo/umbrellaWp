@@ -16,6 +16,7 @@ $card-paddingleft: 20px;
 $btn-textcolor: #2691FB;
 $btn-bordercolor: #2691FB;
 $card2-background: transparent;
+$card-blog: #F7F7F7;
 $card2-textcolor: #003E73;
 $card2-titulocolor: #003E73;
 $btn2-textcolor: white;
@@ -231,6 +232,10 @@ button.hollow.button {
 .card2-section{
   background: $card2-background;
 }
+.cardBlog{
+   background: $card-blog;
+}
+
 .header-container {
   background: $header-background;
 }
@@ -313,6 +318,11 @@ ul.menu.headermenu {
   background: $body-background404;
 }
 
+
+img.attachment-postbox-thumb.size-postbox-thumb.wp-post-image {
+    width: 100%;
+    height: auto;
+}
 
 
 //Medias Queris
