@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 <head>
-  
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108618042-1"></script>
     <script>
@@ -11,7 +11,7 @@
 
       gtag('config', 'UA-108618042-1');
     </script>
-    
+
     <link rel="apple-touch-icon" sizes="57x57" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-72x72.png">
@@ -25,7 +25,7 @@
     <link rel="icon" type="<?php bloginfo('stylesheet_directory')?>/image/png" sizes="32x32" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-32x32.png">
     <link rel="icon" type="<?php bloginfo('stylesheet_directory')?>/image/png" sizes="96x96" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-96x96.png">
     <link rel="icon" type="<?php bloginfo('stylesheet_directory')?>/image/png" sizes="16x16" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-16x16.png">
-    <link rel="manifest" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/manifest.json"> 
+    <link rel="manifest" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="<?php bloginfo('stylesheet_directory')?>/icons/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
-    
+
 </head>
 <body>
 
@@ -73,13 +73,13 @@
               <ul class=" dropdown menu" data-magellan data-dropdown-menu id="menuListHeader">
                   <li><a class= "clickMenu" href="#fourth" >Puntos de Venta</a></li>
               </ul>
-              <ul class=" dropdown menu" data-magellan data-dropdown-menu id="menuListHeader">           
+              <ul class=" dropdown menu" data-magellan data-dropdown-menu id="menuListHeader">
                   <li><a href="mailto:jsamur@pharmainvesti.cl">Contacto</a></li>
               </ul>
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
 
 
@@ -111,12 +111,26 @@
       <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
     </div>
     <ul class="orbit-container">
-      <li class="is-active orbit-slide">
+
+<li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <a href="http://www.umbrellachile.cl/ofertasydescuentos/"><img class="orbit-image show-for-small-only" src="http://www.umbrellachile.cl/ofertasydescuentos/assets/Slider3Desktop.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN"></a>
+          <a href="http://www.umbrellachile.cl/ofertasydescuentos/"><img class="orbit-image show-for-medium-only" src="http://www.umbrellachile.cl/ofertasydescuentos/assets/Slider3Desktop.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN"></a>
+          <a href="http://www.umbrellachile.cl/ofertasydescuentos/"><img class="orbit-image show-for-large" src="http://www.umbrellachile.cl/ofertasydescuentos/assets/Slider3Desktop.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN"></a>
+
+        </figure>
+      </li>
+
+
+
+
+
+      <li class="orbit-slide">
         <figure class="orbit-figure">
           <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Mobile@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
           <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1Tablet.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
           <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider1DesktopHD@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-          
+
         </figure>
       </li>
       <li class="orbit-slide">
@@ -124,7 +138,7 @@
           <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Mobile@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
           <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2Tablet.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
           <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider2DesktopHD.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-        
+
         </figure>
       </li>
       <li class="orbit-slide">
@@ -132,33 +146,33 @@
           <img class="orbit-image show-for-small-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Mobile@2x.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
           <img class="orbit-image show-for-medium-only" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3Tablet.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
           <img class="orbit-image show-for-large" src="<?php bloginfo('stylesheet_directory')?>/assets/Slider3DesktopHD.jpg" alt="Umbrella Intelligent - Protección y reparación de la piel desde su ADN">
-         
+
         </figure>
       </li>
-    
+
     </ul>
   </div>
  <!--  <nav class="orbit-bullets">
     <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
     <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
     <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-    
+
   </nav> -->
 </div>
 
-<!-- 
+<!--
     <div>
-       <img class="imgOrbit" style="width: 100%; height:auto;" data-interchange="[assets/slider1Mobile.jpg, small], [assets/slider1Tablet.jpg, medium], [assets/slider1Desktop.jpg, large], [assets/slider1DesktopHd.jpg, xlarge]">  
+       <img class="imgOrbit" style="width: 100%; height:auto;" data-interchange="[assets/slider1Mobile.jpg, small], [assets/slider1Tablet.jpg, medium], [assets/slider1Desktop.jpg, large], [assets/slider1DesktopHd.jpg, xlarge]">
     </div> -->
 
 
     <div class="sections">
       <section id="first" data-magellan-target="first">
-          <article id="article1">     
-              <div class = "row container" id="card2Div" >       
+          <article id="article1">
+              <div class = "row container" id="card2Div" >
                   <div class="small-12 medium-6 columns card2">
                      <picture>
-                          <img width="auto" height="auto" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/producto.png, small], [<?php bloginfo('stylesheet_directory')?>/assets/producto@2x.png, retina]">      
+                          <img width="auto" height="auto" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/producto.png, small], [<?php bloginfo('stylesheet_directory')?>/assets/producto@2x.png, retina]">
                       </picture>
                   </div>
                   <div class="small-12 medium-6 columns card2-section align-self-middle ">
@@ -167,53 +181,53 @@
                     <p>Umbrella Intelligent es un sistema integral de fotoprotección inteligente que además de proteger tu piel, la restaura de daños anteriores causados por los rayos UV.</p>
                   </div>
               </div>
-          </article> 
+          </article>
       </section>
       <section id="second" data-magellan-target="second">
         <div class="row medium-up-3 ">
           <div class="small-12 medium-4 columns">
             <div class="card columns">
-              <article>  
+              <article>
                 <picture>
-                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/protege.svg" />  
+                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/protege.svg" />
                 </picture>
-                  
+
                 <div class="card-section">
                     <h5>PROTEGE</h5>
                     <p>Gracias a su poderosa fórmula Umbrella Intelligent ofrece una excelente defensa frente a la radiación UV-A, UV-B, luz visible e infraroja.</p>
                 </div>
-              </article>  
+              </article>
             </div>
           </div>
 
           <div class="small-12 medium-4 columns">
             <div class="card columns" style="max-width: 62.5rem">
-              <article>  
+              <article>
                 <picture>
                   <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/previene.svg" />
                 </picture>
-                  
+
                 <div class="card-section">
                     <h5>PREVIENE</h5>
                     <p>Su innovador sistema de protección biológica AOX Complex previene el daño oxidativo de la piel y los efectos nocivos de la exposición a la radiación ultravioleta.</p>
                 </div>
-              </article>  
+              </article>
             </div>
           </div>
 
           <div class="small-12 medium-4 columns">
             <div class="card columns">
-              <article>  
+              <article>
                 <picture>
-                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/adn.svg"  />    
+                  <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/adn.svg"  />
                 </picture>
-                  
+
                 <div class="card-section">
                     <h5>REPARA EL ADN</h5>
                     <p>La exposición a la radiación ultravioleta genera fuertes daños al ADN. Umbrella Intelligent incluye Fotoliasa encapsulada, que ayuda a reestructurar y reparar la piel, preservando su material genético. </p>
-                    
+
                 </div>
-              </article>  
+              </article>
             </div>
           </div>
         </div>
@@ -224,51 +238,51 @@
           <div class="row text-center" >
             <div class="columns small-12" >
               <h5 class="textSpecial">¿CÓMO FUNCIONA UMBRELLA INTELLIGENT?</h5>
-            </div>  
+            </div>
             <div id ="columnaVideo" class="columns small-12">
               <div class="responsive-embed">
                    <div id ="columnaVideo" class="columns small-12 text-center" >
                       <iframe id ="videoFrame" width="960" height="540" src="<?php bloginfo('stylesheet_directory')?>/assets/video2.mp4" frameborder="0" allowfullscreen></iframe>
-                  </div> 
-              </div> 
+                  </div>
+              </div>
             </div>
           </div>
       </section>
       <section id="fourth" data-magellan-target="fourth">
-         <div class="row text-center" style="min-height: 420px;"> 
+         <div class="row text-center" style="min-height: 420px;">
             <div class="columns small-12 align-self-middle " >
             <br>
             <h5 class="textSpecial" style=" line-height: 1.2;">ENCUÉNTRANOS <br> EN LAS PRINCIPALES FARMACIAS DEL PAÍS</h5>
               <div class="row medium-up-3 " >
                 <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/cruzVerde.jpg"  />  
+                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/cruzVerde.jpg"  />
                 </div>
                 <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand" >
-                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/ahumada.jpg"  />  
+                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/ahumada.jpg"  />
                 </div>
                 <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/salco.png"  />  
+                   <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/salco.png"  />
                 </div>
-              </div> 
-            </div>   
+              </div>
+            </div>
           </div>
       </section>
     </div>
-   
+
     <div class="footer-container show-for-medium">
         <footer class="footer row align-justify">
             <div class="small-3 column hide-for-small-only">
                 <div class="row">
-                    <img src="<?php bloginfo('stylesheet_directory')?>/assets/umbrella2Logo.svg" class="attachment-full size-full wp-post-image" alt="" style="height: 60px;">          
+                    <img src="<?php bloginfo('stylesheet_directory')?>/assets/umbrella2Logo.svg" class="attachment-full size-full wp-post-image" alt="" style="height: 60px;">
                 </div>
                 <div class="row footerSocial">
                     <div class="small-12 medium-4 columns align-self-middle"">
-                        <a href="https://www.facebook.com/Umbrella.fotoproteccion/"> 
+                        <a href="https://www.facebook.com/Umbrella.fotoproteccion/">
                             <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com" style="padding-bottom: 20px;"></a>
-                       
+
                     </div>
                     <div class="small-12 medium-8 columns align-self-middle text-align-center">
-                         <a href="https://www.instagram.com/umbrella_fotoproteccion"> 
+                         <a href="https://www.instagram.com/umbrella_fotoproteccion">
                             <img src="<?php bloginfo('stylesheet_directory')?>/assets/instagramLogo.svg" class="attachment-full size-full wp-post-image" alt="www.instagram.com" style="padding-bottom: 20px;"></a>
                     </div>
                 </div>
@@ -293,11 +307,11 @@
                                 <a href="mailto:jsamur@pharmainvesti.cl">Contacto</a>
                             </li>
 
-                            
+
                         </ul>
                     </nav>
                     <hr size="8px" color="white">
-                </div>  
+                </div>
                 <div class="row">
                     <div class="columns small-9 footermenu" >
                         <p> Derechos reservados Pharma Investi Chile S.A. </p>
@@ -338,7 +352,7 @@
                     <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
                         <a href="mailto:jsamur@pharmainvesti.cl">Contacto</a>
                     </li>
-                </ul> 
+                </ul>
             </div>
             <div class="columns small-12 footermenu show-for-small-only">
                <p> Derechos reservados Pharma Investi Chile S.A. </p>
@@ -352,12 +366,12 @@
                     <div class="small-12 columns">
                         <div class="row">
                             <div class="small-6  columns text-center" id="imgFacebookMobile">
-                              <a href="https://www.facebook.com/Umbrella.fotoproteccion/"> 
-                                <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com">   
+                              <a href="https://www.facebook.com/Umbrella.fotoproteccion/">
+                                <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com">
                                </a>
                             </div>
                             <div class="small-6 columns text-center" id="imgFacebookMobile">
-                              <a href="https://www.instagram.com/umbrella_fotoproteccion"> 
+                              <a href="https://www.instagram.com/umbrella_fotoproteccion">
                                 <img src="<?php bloginfo('stylesheet_directory')?>/assets/instagramLogo.svg" class="attachment-full size-full wp-post-image" alt="www.instagram.com" style=" height: 60px; width: 60px;">
                               </a>
                             </div>
@@ -365,18 +379,18 @@
                     </div>
                 </div>
                 <div class="columns small-12 footermenu text-center" id="imgLogoFooter2Mobile">
-                      <img src="<?php bloginfo('stylesheet_directory')?>/assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="" style="margin-top: 20px;"> 
-                </div>     
+                      <img src="<?php bloginfo('stylesheet_directory')?>/assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="" style="margin-top: 20px;">
+                </div>
             </div>
         </footer>
     </div>
- 
+
     <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/jquery.js"></script>
     <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/what-input.js"></script>
     <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/foundation.js"></script>
     <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/foundation.interchange.js"></script>
     <script src="<?php bloginfo('stylesheet_directory')?>/js/app.js"></script>
-  
+
 
 </body>
 </html>
